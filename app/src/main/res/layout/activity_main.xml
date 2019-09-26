@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/mylayout"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ngay"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <Button
+        android:id="@+id/btn_datepickerdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show DatePicker Dialog"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/btn_analogdialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analog Dialog"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+    <Button
+        android:id="@+id/btn_Chronometer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Chronometer"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="232dp" />
+
+    <Button
+        android:id="@+id/btn_timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show TimePicker"
+        tools:layout_editor_absoluteX="6dp"
+        tools:layout_editor_absoluteY="176dp" />
+</LinearLayout>
